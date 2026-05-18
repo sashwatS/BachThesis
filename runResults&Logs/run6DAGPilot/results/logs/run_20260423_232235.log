@@ -1,0 +1,24 @@
+2026-04-23 23:22:35,042 [INFO] === Experiment starting in PILOT mode ===
+2026-04-23 23:22:35,043 [INFO] LIMIT = 1
+2026-04-23 23:22:35,049 [INFO] Loaded 5 excerpts and 13 ontology items
+2026-04-23 23:22:35,049 [INFO] === Starting model: llama3.1:8b (mode=hard) ===
+2026-04-23 23:22:35,050 [INFO] Running 1 excerpts (already completed: 0)
+2026-04-23 23:24:25,831 [INFO] [llama3.1:8b] 1/1 bank_of_ireland_01 (110.8s) status=ok ✗
+2026-04-23 23:24:25,832 [INFO] === Finished model: llama3.1:8b ===
+2026-04-23 23:24:25,833 [INFO] === Starting model: qwen3.5:9b (mode=soft) ===
+2026-04-23 23:24:25,833 [INFO] Running 1 excerpts (already completed: 0)
+2026-04-23 23:34:25,869 [ERROR] [qwen3.5:9b] bank_of_ireland_01: request failed — HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+2026-04-23 23:34:25,871 [INFO] === Finished model: qwen3.5:9b ===
+2026-04-23 23:34:25,872 [INFO] === Starting model: qwen3.5:9b_instruct (mode=instruct) ===
+2026-04-23 23:34:25,872 [INFO] Running 1 excerpts (already completed: 0)
+2026-04-23 23:34:27,814 [INFO] [qwen3.5:9b_instruct] 1/1 bank_of_ireland_01 (1.9s) status=none ✗
+2026-04-23 23:34:27,815 [INFO] === Finished model: qwen3.5:9b_instruct ===
+2026-04-23 23:34:27,816 [INFO] === Starting model: gemma4:e4b (mode=soft) ===
+2026-04-23 23:34:27,817 [INFO] Running 1 excerpts (already completed: 0)
+2026-04-23 23:36:35,410 [INFO] [gemma4:e4b] 1/1 bank_of_ireland_01 (127.6s) status=ok ✗
+2026-04-23 23:36:35,415 [INFO] === Finished model: gemma4:e4b ===
+2026-04-23 23:36:35,416 [INFO] === Starting model: deepseek-r1:8b (mode=soft) ===
+2026-04-23 23:36:35,417 [INFO] Running 1 excerpts (already completed: 0)
+2026-04-23 23:39:54,581 [INFO] [deepseek-r1:8b] 1/1 bank_of_ireland_01 (199.2s) status=ok ✗
+2026-04-23 23:39:54,582 [INFO] === Finished model: deepseek-r1:8b ===
+2026-04-23 23:39:54,582 [INFO] === All models complete ===

@@ -1,0 +1,14 @@
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,PBV,Sustainable Finance,Market Price of Share,Environmental Fines,Market Value of Equity,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,1,0,0,0,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,1,0,0,0,0,1,0,1,0,0,0
+GHG Emissions,1,0,0,0,0,0,1,1,0,0,1,0,0
+PBV,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,1,1,0,0,1,0,1,0,0,0,0,0
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0,0
+Market Value of Equity,0,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,1,0,0
+Corporate Governance,0,0,0,0,0,0,1,1,0,0,1,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,1,0,0,0,0,1
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0,0

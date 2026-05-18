@@ -1,0 +1,84 @@
+excerpt_id: bank_of_ireland_01
+firm: Bank of Ireland
+status: ok
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,Market-based Firm Value (compound),Sustainable Finance,Market Price of Share,Environmental Fines,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,0,0,0,0,0,0,0,0,0,0
+GHG Emissions,0,0,0,0,0,0,1,0,0,0,0,0
+Market-based Firm Value (compound),0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,0,0,0,0,0,0,0,0,0,0,0
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,0,0
+Corporate Governance,0,0,0,0,0,0,0,0,0,1,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,0,0,0,0,0
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0
+
+excerpt_id: deutsche_bank_01
+firm: Deutsche Bank
+status: ok
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,Market-based Firm Value (compound),Sustainable Finance,Market Price of Share,Environmental Fines,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,0,0,1,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,0,0,0,0,0,0,0,0,0,0
+GHG Emissions,0,0,0,0,0,0,0,0,0,0,0,0
+Market-based Firm Value (compound),0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,0,0,0,0,0,0,0,0,0,0,1
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,0,0
+Corporate Governance,0,0,0,1,0,0,0,0,0,1,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,0,0,0,0,0
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0
+
+excerpt_id: banca_mediolanum_01
+firm: Banca Mediolanum
+status: malformed
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,Market-based Firm Value (compound),Sustainable Finance,Market Price of Share,Environmental Fines,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,0,0,0,0,0,0,0,0,0,0
+GHG Emissions,0,0,0,0,0,0,0,0,0,0,0,0
+Market-based Firm Value (compound),0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,0,0,0,0,0,0,0,0,0,0,0
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,0,0
+Corporate Governance,0,0,0,0,0,0,0,0,0,0,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,0,0,0,0,0
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0
+
+excerpt_id: bayer_01
+firm: Bayer
+status: ok
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,Market-based Firm Value (compound),Sustainable Finance,Market Price of Share,Environmental Fines,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,0,0,0,0,0,0,0,0,0,0
+GHG Emissions,0,1,0,0,0,0,0,0,0,0,0,0
+Market-based Firm Value (compound),0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,0,0,0,0,0,0,0,0,0,0,1
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,0,0
+Corporate Governance,0,0,0,0,0,0,0,0,0,0,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,0,0,0,0,0
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0
+
+excerpt_id: carlsberg_01
+firm: Carlsberg
+status: ok
+cause \ effect (DeepSeek-R1 8B),Board Strategy,Environmental Reporting,GHG Emissions,Market-based Firm Value (compound),Sustainable Finance,Market Price of Share,Environmental Fines,Audit,Corporate Governance,Earnings Quality,Employee Development,Net Sales
+Board Strategy,0,0,1,0,0,0,0,0,0,0,0,0
+Environmental Reporting,0,0,0,0,0,0,0,0,0,0,0,0
+GHG Emissions,0,0,0,1,0,0,0,0,0,0,0,0
+Market-based Firm Value (compound),0,0,0,0,0,0,0,0,0,0,0,0
+Sustainable Finance,0,0,0,0,0,0,0,0,0,0,0,0
+Market Price of Share,0,0,0,0,0,0,0,0,0,0,0,0
+Environmental Fines,0,0,0,0,0,0,0,0,0,0,0,0
+Audit,0,0,0,0,0,0,0,0,0,0,0,0
+Corporate Governance,0,0,0,0,0,0,0,1,0,0,0,0
+Earnings Quality,0,0,0,0,0,0,0,0,0,0,0,0
+Employee Development,0,0,0,0,0,0,0,0,0,0,0,0
+Net Sales,0,0,0,0,0,0,0,0,0,0,0,0

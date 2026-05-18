@@ -1,0 +1,1 @@
+{"excerpt_id": "bank_of_ireland_01", "model": "qwen3.5:9b", "mode": "soft", "error": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)", "ground_truth_edges": [["Corporate Governance", "Environmental Reporting"], ["Environmental Reporting", "GHG Emissions"], ["GHG Emissions", "Market Value of Equity"]]}

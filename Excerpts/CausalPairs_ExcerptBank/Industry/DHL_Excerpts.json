@@ -1,0 +1,18 @@
+{
+  "firm": "DHL",
+  "source_file": "dhl.jsonl",
+  "excerpts": [
+    {
+      "id": 1,
+      "page": 49,
+      "word_count": 280,
+      "text": "In June 2023, we placed a sustainability-linked bond with an issue volume of €500 million and a term through 2033. Moreover, a promissory note loan in the amount of €100 million was repaid in September 2023 and one bond in the amount of €500 million was repaid in October 2023. Information on bonds is contained in note 39 to the consolidated financial statements. Group’s credit rating unchanged As of the reporting date, our credit rating was still at “BBB+” with a positive outlook according to Fitch Ratings and was classified as “A2” with a stable outlook by Moody’s Investor Service. The solid investment-grade ratings ensure unfettered access to the capital market. The following table shows the ratings as of the reporting date and the underlying factors. The complete and current analyses by the rating agencies and the rating categories can be found under creditor relations. 49 DHL Group – 2023 Annual Report The Company Consolidated Financial Statements Combined Management Report Further Information Liquidity and sources of funds As of the reporting date, the Group reported centrally available liquidity in the amount of €1.3 billion (previous year: €2.0 billion), which is comprised of cash and cash equivalents as well as current financial assets. Due to our solid liquidity situation, the syndicated credit line in the amount of €2 billion was not drawn. In addition, unused bilateral credit lines totaling €1.6 billion were available to the Group as of the reporting date. The following table gives a breakdown of the financial liabilities reported in the balance sheet. Further information on available liquidity and financial liabilities can be found in note 43.1 and 39 to the consolidated financial statements. €m 20221 2023 Lease"
+    },
+    {
+      "id": 2,
+      "page": 139,
+      "word_count": 231,
+      "text": "A provision for the obligation to submit CO emissions certificates to the responsible authorities in the EU and the United Kingdom is recognized at the carrying amount of the CO emissions certificates capitalized for this purpose. If a portion of the obligation is not covered by existing certificates, the provision for this is recognized at the market price of the emissions certificates on the reporting date. Property, plant and equipment Property, plant and equipment is carried at cost, reduced by accumulated depreciation and impairment losses. In addition to direct costs, production cost includes an appropriate share of allocable production overhead costs. Borrowing costs that can be allocated directly to the purchase, construction or manufacture of property, plant and equipment are capitalized. Value-added tax arising in conjunction with the acquisition or production of items of property, plant or equipment is included in the cost to the extent that it cannot be deducted as input tax. Depreciation is charged using the straight-line method. Significant portions of property, plant and equipment that have different useful lives are recognized and depreciated separately. If costs are incurred in conjunction with regular comprehensive maintenance work (e.g., refurbishment of aircraft and major repairs of engines), these costs are recognized as a separate component, provided that they meet the criteria for this recognition. The estimated useful lives applied to the major asset classes are presented in the table below:"
+    }
+  ]
+}

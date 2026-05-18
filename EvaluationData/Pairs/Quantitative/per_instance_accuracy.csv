@@ -1,0 +1,6 @@
+Model,Correct,Total,Per-instance Accuracy
+LLaMA 3.1 8B,8,39,0.2051
+Gemma 4 E4B,10,39,0.2564
+Qwen 3.5 9B (instruct),10,39,0.2564
+DeepSeek-R1 8B,16,39,0.4103
+Qwen 3.5 9B (thinking),11,39,0.2821

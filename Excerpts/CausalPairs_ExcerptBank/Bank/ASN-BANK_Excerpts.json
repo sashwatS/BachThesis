@@ -1,0 +1,12 @@
+{
+  "firm": "ASN-BANK",
+  "source_file": "ASN Bank N.V. Integrated-Annual-Report-2023.jsonl",
+  "excerpts": [
+    {
+      "id": 1,
+      "page": 184,
+      "word_count": 261,
+      "text": "Banking book1 - Indicators of potential climate change transition risk Gross carrying amount GHG financed emissions2 In € millions 2023 2022 2023 2022 Exposures towards sectors that highly contribute to climate change3 1,485 1,317 74,147 90,214 A - Agriculture, forestry and fishing 1 -- 133 83 B - Mining and quarrying -- -- -- -- C - Manufacturing 130 96 51,598 29,099 D - Electricity, gas, steam and air conditioning supply 837 656 8,840 7,761 E - Water supply; sewerage, waste management and remediation activities -- - -- 0 F - Construction 74 88 1,209 1,993 G - Wholesale and retail trade; repair of motor vehicles and motorcycles 97 97 6,211 10,459 H - Transportation and storage 64 61 1,190 3,168 I - Accommodation and food service activities 4 4 47 49 L - Real estate activities 278 315 4,919 37,603 Exposures towards sectors other than those that highly contribute to climate change3 7,137 8,958 K - Financial and insurance activities 6,775 8,576 Exposures to other sectors (NACE codes J, M - U) 362 382 Total3 8,622 10,275 74,147 90,214 1 This includes loans and advances and debt securities to non-financial corporations. 2 Scope 1, scope 2 and scope 3 emissions of the counterparty (in tonnes of CO2 equivalent). 3 In accordance with the Commission Delegated Regulation EU) 2020/1818 supplementing Regulation (EU) 2016/1011 as regards minimum standards for EU Climate Transition Benchmarks and EU Paris-aligned Benchmarks -Climate Benchmark Standards Regulation - Recital 6: Sectors listed in Sections A to H and Section L of Annex I to Regulation (EC) No 1893/2006."
+    }
+  ]
+}

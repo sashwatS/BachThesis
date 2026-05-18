@@ -1,0 +1,25 @@
+{
+  "Banca Mediolanum S.p.A. MEDIOLANUM_GROUP_NON-FINANCIAL_STATEMENT_2023.jsonl": [
+    {
+      "anchor_line": 960,
+      "anchor_page": 178,
+      "anchor_text": "Stewardship and voting MIFL demonstrates a strong commitment to stewardship (or active ownership) and its policy consists of exercising voting rights in relation to all securities, on behalf of clients. MIFL believes that stewardship helps to realise long-term shareholder value by providing investor",
+      "window_span": [
+        945,
+        975
+      ],
+      "page_range": [
+        175,
+        180
+      ],
+      "total_markers": 19,
+      "nodes_in_nbhd": [
+        "CG",
+        "ER",
+        "GHG",
+        "MBV"
+      ],
+      "section": "ESRS2"
+    }
+  ]
+}

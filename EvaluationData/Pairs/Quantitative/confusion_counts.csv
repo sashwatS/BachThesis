@@ -1,0 +1,6 @@
+Model,TP,FP,FN,TN
+LLaMA 3.1 8B,5,15,5,131
+Gemma 4 E4B,5,11,5,135
+Qwen 3.5 9B (instruct),5,10,5,136
+DeepSeek-R1 8B,7,11,3,135
+Qwen 3.5 9B (thinking),6,5,4,141

@@ -1,0 +1,43 @@
+2026-04-24 00:12:40,843 [INFO] === Experiment starting in FULL mode ===
+2026-04-24 00:12:40,849 [INFO] Loaded 5 excerpts and 13 ontology items
+2026-04-24 00:12:40,849 [INFO] === Starting model: llama3.1:8b (mode=hard) ===
+2026-04-24 00:12:40,850 [INFO] Running 5 excerpts (already completed: 0)
+2026-04-24 00:14:31,579 [INFO] [llama3.1:8b] 1/5 bank_of_ireland_01 (110.7s) status=ok ✗
+2026-04-24 00:14:34,840 [INFO] [llama3.1:8b] 2/5 deutsche_bank_01 (3.3s) status=ok ✗
+2026-04-24 00:14:37,419 [INFO] [llama3.1:8b] 3/5 banca_mediolanum_01 (2.6s) status=ok ✗
+2026-04-24 00:14:52,439 [INFO] [llama3.1:8b] 4/5 bayer_01 (15.0s) status=ok ✗
+2026-04-24 00:14:55,282 [INFO] [llama3.1:8b] 5/5 carlsberg_01 (2.8s) status=ok ✗
+2026-04-24 00:14:55,283 [INFO] === Finished model: llama3.1:8b ===
+2026-04-24 00:14:55,283 [INFO] === Starting model: qwen3.5:9b (mode=soft) ===
+2026-04-24 00:14:55,285 [INFO] Running 5 excerpts (already completed: 0)
+2026-04-24 00:28:56,884 [INFO] [qwen3.5:9b] 1/5 bank_of_ireland_01 (841.6s) status=malformed ✗
+2026-04-24 00:42:30,861 [INFO] [qwen3.5:9b] 2/5 deutsche_bank_01 (814.0s) status=ok ✗
+2026-04-24 00:56:06,449 [INFO] [qwen3.5:9b] 3/5 banca_mediolanum_01 (815.6s) status=ok ✗
+2026-04-24 01:09:42,352 [INFO] [qwen3.5:9b] 4/5 bayer_01 (815.9s) status=malformed ✗
+2026-04-24 01:23:19,447 [INFO] [qwen3.5:9b] 5/5 carlsberg_01 (817.1s) status=malformed ✗
+2026-04-24 01:23:19,448 [INFO] === Finished model: qwen3.5:9b ===
+2026-04-24 01:23:19,448 [INFO] === Starting model: qwen3.5:9b_instruct (mode=instruct) ===
+2026-04-24 01:23:19,449 [INFO] Running 5 excerpts (already completed: 0)
+2026-04-24 01:23:21,243 [INFO] [qwen3.5:9b_instruct] 1/5 bank_of_ireland_01 (1.8s) status=none ✗
+2026-04-24 01:23:22,981 [INFO] [qwen3.5:9b_instruct] 2/5 deutsche_bank_01 (1.7s) status=ok ✗
+2026-04-24 01:23:24,633 [INFO] [qwen3.5:9b_instruct] 3/5 banca_mediolanum_01 (1.7s) status=ok ✗
+2026-04-24 01:23:26,237 [INFO] [qwen3.5:9b_instruct] 4/5 bayer_01 (1.6s) status=none ✗
+2026-04-24 01:23:28,346 [INFO] [qwen3.5:9b_instruct] 5/5 carlsberg_01 (2.1s) status=ok ✗
+2026-04-24 01:23:28,347 [INFO] === Finished model: qwen3.5:9b_instruct ===
+2026-04-24 01:23:28,348 [INFO] === Starting model: gemma4:e4b (mode=soft) ===
+2026-04-24 01:23:28,349 [INFO] Running 5 excerpts (already completed: 0)
+2026-04-24 01:25:37,653 [INFO] [gemma4:e4b] 1/5 bank_of_ireland_01 (129.3s) status=ok ✗
+2026-04-24 01:26:09,044 [INFO] [gemma4:e4b] 2/5 deutsche_bank_01 (31.4s) status=none ✗
+2026-04-24 01:26:46,088 [INFO] [gemma4:e4b] 3/5 banca_mediolanum_01 (37.0s) status=ok ✗
+2026-04-24 01:27:30,064 [INFO] [gemma4:e4b] 4/5 bayer_01 (44.0s) status=ok ✗
+2026-04-24 01:28:07,059 [INFO] [gemma4:e4b] 5/5 carlsberg_01 (37.0s) status=ok ✗
+2026-04-24 01:28:07,060 [INFO] === Finished model: gemma4:e4b ===
+2026-04-24 01:28:07,060 [INFO] === Starting model: deepseek-r1:8b (mode=soft) ===
+2026-04-24 01:28:07,061 [INFO] Running 5 excerpts (already completed: 0)
+2026-04-24 01:31:33,316 [INFO] [deepseek-r1:8b] 1/5 bank_of_ireland_01 (206.3s) status=ok ✗
+2026-04-24 01:32:17,304 [INFO] [deepseek-r1:8b] 2/5 deutsche_bank_01 (44.0s) status=ok ✗
+2026-04-24 01:33:00,304 [INFO] [deepseek-r1:8b] 3/5 banca_mediolanum_01 (43.0s) status=malformed ✗
+2026-04-24 01:34:40,807 [INFO] [deepseek-r1:8b] 4/5 bayer_01 (100.5s) status=ok ✗
+2026-04-24 01:36:23,817 [INFO] [deepseek-r1:8b] 5/5 carlsberg_01 (103.0s) status=ok ✗
+2026-04-24 01:36:23,818 [INFO] === Finished model: deepseek-r1:8b ===
+2026-04-24 01:36:23,819 [INFO] === All models complete ===

@@ -1,0 +1,47 @@
+[
+  {
+    "excerpt": "Scope Mandatory priority PAIs Additional PAIs 1. Greenhouse gas emissions 2. Carbon footprint 3. GHG intensity of investee companies... Stewardship and voting MIFL demonstrates a strong commitment to stewardship (or active ownership) and its policy consists of exercising voting rights in relation to all securities, on behalf of clients. MIFL believes that stewardship helps to realise long-term shareholder value by providing investors with the opportunity to enhance the value of companies that are more consistent with long-term investor objectives, e.g. by voting resolutions at general meetings of shareholders and meeting business directorates on particular issues. [...] The voting policy is strongly focused on the governance that companies determine regarding the relevant environmental and social risks and companies are expected to provide a certain level of oversight by the board of directors on such risks. For companies with significant exposure to climate-linked risks, the voting policy assesses whether or not those companies have set greenhouse gas emission reduction targets and whether those targets are aligned with the Paris Agreement. The Voting Policy takes environmental and social factors into account when reviewing a company's remuneration program. At the very least, companies are expected to have a link between remuneration and environmental considerations. For companies that have greater exposure to environmental and climate issues, the expectation is that managers have adequate incentives to act in such a way as to mitigate a company's climate impact. Voting policy generally supports all proposals that require greater transparency or strategies to mitigate the climate-linked risks of a company. For example, regardless of industry, MIFL policy supports proposals that require companies to disclose information about their scenario analyses or to provide information in line with certain reporting recommendations, such as those promulgated by the Task Force on Climate-related Financial Disclosure (TCFD). In addition, the policy supports proposals which require the company to consider energy efficiency and renewable energy sources in the development of the project and in the overall strategy.",
+    "source_location": {
+      "file": "Banca Mediolanum S.p.A. MEDIOLANUM_GROUP_NON-FINANCIAL_STATEMENT_2023.jsonl",
+      "pages": [177, 178, 179],
+      "lines": [958, 960, 964, 965, 966, 967],
+      "section": "ESRS2",
+      "subsection": "Stewardship and voting (MIFL Responsible Investment Policy)"
+    },
+    "nodes_mentioned": ["CG", "ER", "GHG", "MBV"],
+    "surface_forms": {
+      "CG": ["governance", "board of directors", "oversight", "voting policy", "Voting Policy", "remuneration program", "general meetings of shareholders"],
+      "ER": ["disclose information about their scenario analyses", "reporting recommendations", "Task Force on Climate-related Financial Disclosure (TCFD)"],
+      "GHG": ["Greenhouse gas emissions", "Carbon footprint", "GHG intensity", "greenhouse gas emission reduction targets", "Paris Agreement", "carbon emissions", "company's climate impact", "climate-linked risks"],
+      "MBV": ["long-term shareholder value", "enhance the value of companies"]
+    },
+    "edges_claimed": [
+      {
+        "from": "CG",
+        "to": "ER",
+        "sign": "+",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "Voting policy generally supports all proposals that require greater transparency... MIFL policy supports proposals that require companies to disclose information about their scenario analyses or to provide information in line with certain reporting recommendations, such as those promulgated by the Task Force on Climate-related Financial Disclosure (TCFD)."
+      },
+      {
+        "from": "ER",
+        "to": "GHG",
+        "sign": "-",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "For companies with significant exposure to climate-linked risks, the voting policy assesses whether or not those companies have set greenhouse gas emission reduction targets and whether those targets are aligned with the Paris Agreement. [TCFD-aligned disclosure feeds the assessment that pushes target-setting and GHG reduction.]"
+      },
+      {
+        "from": "GHG",
+        "to": "MBV",
+        "sign": "-",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "MIFL believes that stewardship helps to realise long-term shareholder value by providing investors with the opportunity to enhance the value of companies... Voting policy generally supports all proposals that require... strategies to mitigate the climate-linked risks of a company... managers have adequate incentives to act in such a way as to mitigate a company's climate impact. [Mitigating GHG/climate impact raises long-term shareholder value.]"
+      }
+    ],
+    "causal_markers": ["helps to realise", "providing investors with the opportunity to enhance", "strongly focused on", "assesses whether", "takes... into account when reviewing", "expectation is that", "in such a way as to mitigate", "supports all proposals that require", "require companies to"],
+    "notes": "Full Chain A preserved within a single coherent passage of MIFL's Responsible Investment Policy on pp.177-179 (ESRS2). The chain reads: MIFL's voting policy (CG) pressures investees to disclose climate information in line with TCFD (ER); TCFD-aligned disclosure feeds the voting policy's assessment of whether investees set Paris-aligned GHG emission reduction targets (ER->GHG); and MIFL believes climate-focused stewardship that pushes emission-mitigation and linked executive remuneration enhances long-term shareholder value (GHG->MBV). Edge signs match Chain A hypothesis (+, -, -). Surface forms are canonical for all four nodes. The GHG PAI list on L958 (p.177) anchors the GHG node; the MBV clause on L960 (p.178) anchors MBV; L964-L967 carry CG (voting policy / board oversight / remuneration) and ER (TCFD)."
+  }
+]

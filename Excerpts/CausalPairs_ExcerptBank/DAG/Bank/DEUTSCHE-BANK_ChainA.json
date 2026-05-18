@@ -1,0 +1,47 @@
+[
+  {
+    "excerpt": "Deutsche Bank Transition toward a sustainable and climate-neutral economy Non-Financial Report 2023 Sustainability strategy and implementation [...] In 2023, Deutsche Bank further integrated the oversight of sustainability-related issues into governance structures on several levels, ranging from the Supervisory Board and the Group Sustainability Committee to senior business leadership, key infrastructure and control functions as well as specialist teams. [...] The Supervisory Board as well as the Management Board have been regularly informed and involved about the implementation of the sustainability strategy. [...] The governance of climate, environmental and broader ESG risks is led by the bank's sustainability and risk committees. The Group Risk Committee, chaired by the Chief Risk Officer has the mandate to oversee risk and capital related matters borne by the bank. This includes the responsibility for developing the bank's Climate Risk Management Framework. [...] To reinforce the bank's sustainability strategy, the transformation of the bank with regard to sustainability-related targets and goals is a component for the bank's top executives' performance-based compensation. [...] DWS sustainability governance Sustainability governance at DWS starts with the DWS Executive Board, which has the overall responsibility for managing its group-wide business activities with the objective of creating sustainable value. This includes the management of sustainability-related opportunities and risks. [...] Sustainability strategy Being a global financial institution with a loan book of € 479 billion and assets under management of € 559 billion in the Private Bank division and € 896 billion in the Asset Management division, Deutsche Bank sees it as its responsibility to support and where possible, accelerate the historic transformation toward a more sustainable society and economy. The bank has embedded sustainability into products and services, policies, and processes in all key areas, focusing on the following four pillars: Sustainable Finance, Policies & Commitments, People & Own Operations as well as Thought Leadership & Stakeholder Engagement. To underpin its long-standing commitment to sustainability, Deutsche Bank endorsed multiple universal sustainability frameworks and initiatives. The bank is a member of the UN's Environment Programme Finance Initiative (1992) and signatory to the ten principles of the UN Global Compact (2000), the Principles for Responsible Investment (through DWS, 2008), the Principles for Responsible Banking (2019) and the Net-Zero Banking Alliance (2021).",
+    "source_location": {
+      "file": "deutsche-bank.jsonl",
+      "pages": [15, 16, 17, 18, 19],
+      "lines": [44, 45, 51, 57, 58, 59, 66, 67],
+      "section": "ESRS2",
+      "subsection": "Sustainability strategy and implementation (Non-Financial Report 2023)"
+    },
+    "nodes_mentioned": ["CG", "ER", "GHG", "MBV"],
+    "surface_forms": {
+      "CG": ["Supervisory Board", "Management Board", "Group Sustainability Committee", "governance structures", "sustainability and risk committees", "Group Risk Committee", "Chief Risk Officer", "DWS Executive Board", "top executives' performance-based compensation"],
+      "ER": ["Non-Financial Report 2023", "GRI 2-9/12/13/17", "GRI 2-22", "UN's Environment Programme Finance Initiative", "UNEP FI", "UN Global Compact", "Principles for Responsible Investment", "Principles for Responsible Banking", "universal sustainability frameworks"],
+      "GHG": ["climate-neutral economy", "climate, environmental and broader ESG risks", "Climate Risk Management Framework", "Net-Zero Banking Alliance", "net-zero", "sustainability-related targets and goals"],
+      "MBV": ["creating sustainable value", "loan book of € 479 billion", "assets under management of € 559 billion", "€ 896 billion in the Asset Management division", "sustainable society and economy"]
+    },
+    "edges_claimed": [
+      {
+        "from": "CG",
+        "to": "ER",
+        "sign": "+",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "In 2023, Deutsche Bank further integrated the oversight of sustainability-related issues into governance structures on several levels, ranging from the Supervisory Board and the Group Sustainability Committee to senior business leadership... The Supervisory Board as well as the Management Board have been regularly informed and involved about the implementation of the sustainability strategy. [Board/committee-level governance drives production of the Non-Financial Report and adherence to UNEP FI, UN Global Compact, PRI, PRB frameworks.]"
+      },
+      {
+        "from": "ER",
+        "to": "GHG",
+        "sign": "-",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "The bank is a member of the UN's Environment Programme Finance Initiative (1992) and signatory to the ten principles of the UN Global Compact (2000), the Principles for Responsible Investment (through DWS, 2008), the Principles for Responsible Banking (2019) and the Net-Zero Banking Alliance (2021). [Framework commitments (disclosure regime) feed the Climate Risk Management Framework and net-zero targets that drive emissions reductions — 'transformation toward a sustainable and climate-neutral economy'.]"
+      },
+      {
+        "from": "GHG",
+        "to": "MBV",
+        "sign": "-",
+        "direction": "forward",
+        "explicit": true,
+        "evidence": "To reinforce the bank's sustainability strategy, the transformation of the bank with regard to sustainability-related targets and goals is a component for the bank's top executives' performance-based compensation. [...] DWS sustainability governance Sustainability governance at DWS starts with the DWS Executive Board, which has the overall responsibility for managing its group-wide business activities with the objective of creating sustainable value. [Climate/net-zero targets are tied to executive pay and to DWS's mandate of 'creating sustainable value' across €479bn loan book and €559bn+€896bn AuM — mitigating GHG impact is framed as value creation.]"
+      }
+    ],
+    "causal_markers": ["integrated the oversight... into governance structures", "has the mandate to oversee", "responsibility for developing", "to reinforce", "is a component for", "has the overall responsibility for", "with the objective of", "sees it as its responsibility to support and where possible, accelerate", "to underpin", "endorsed"],
+    "notes": "Relaxed-wording full Chain A preserved in the Non-Financial Report 2023, ESRS2 section 'Sustainability strategy and implementation' (pp.15-19). The chain reads: Board-level governance (CG) integrated the oversight of sustainability-related issues (L45, L51) and links to external disclosure and framework regime — Non-Financial Report / UNEP FI / UN Global Compact / PRI / PRB / NZBA (ER, L44, L67); framework endorsement (PRB, NZBA) and the Climate Risk Management Framework drive net-zero commitments and climate-risk oversight (GHG, L57, L67); climate/sustainability targets are hard-wired into top-executive compensation (L58) and to DWS's mandate of 'creating sustainable value' across a €479bn loan book and €1.46tn AuM (MBV, L59, L66). Wording tolerances relaxed vs. strict Chain A spec: MBV is anchored on 'creating sustainable value' / loan-book and AuM scale rather than explicit 'shareholder value'; ER is anchored on the Non-Financial Report + framework portfolio (GRI 2-22, UNEP FI, UN Global Compact, PRI, PRB, NZBA) rather than only TCFD/CDP/SBTi; GHG anchored on 'climate-neutral economy' + 'Net-Zero Banking Alliance' + 'Climate Risk Management Framework'. Edge signs match Chain A hypothesis (+, -, -). Causal markers are dense across the passage."
+  }
+]

@@ -1,0 +1,24 @@
+2026-04-19 19:39:46,382 [INFO] === Experiment starting in TRIAL mode ===
+2026-04-19 19:39:46,382 [INFO] LIMIT = 2 (only first 2 excerpts per model)
+2026-04-19 19:39:46,382 [INFO] Loaded 39 excerpts and 13 ontology items
+2026-04-19 19:39:46,382 [INFO] === Starting model: llama3.1:8b ===
+2026-04-19 19:39:46,382 [INFO] Running 2 excerpts (already completed: 0)
+2026-04-19 19:40:40,957 [INFO] [llama3.1:8b] 1/2 seb_pank_audit_to_earnings_01 (54.6s) status=ok ✗
+2026-04-19 19:41:00,377 [INFO] [llama3.1:8b] 2/2 sap_audit_to_earnings_01 (19.4s) status=ok ✓
+2026-04-19 19:41:00,377 [INFO] === Finished model: llama3.1:8b ===
+2026-04-19 19:41:00,377 [INFO] === Starting model: qwen3.5:9b ===
+2026-04-19 19:41:00,377 [INFO] Running 2 excerpts (already completed: 0)
+2026-04-19 19:55:28,810 [INFO] [qwen3.5:9b] 1/2 seb_pank_audit_to_earnings_01 (868.4s) status=malformed ✗
+2026-04-19 20:10:00,268 [INFO] [qwen3.5:9b] 2/2 sap_audit_to_earnings_01 (871.5s) status=malformed ✗
+2026-04-19 20:10:00,269 [INFO] === Finished model: qwen3.5:9b ===
+2026-04-19 20:10:00,269 [INFO] === Starting model: gemma4:e4b ===
+2026-04-19 20:10:00,269 [INFO] Running 2 excerpts (already completed: 0)
+2026-04-19 20:12:24,982 [INFO] [gemma4:e4b] 1/2 seb_pank_audit_to_earnings_01 (144.7s) status=ok ✗
+2026-04-19 20:14:47,339 [INFO] [gemma4:e4b] 2/2 sap_audit_to_earnings_01 (142.4s) status=ok ✗
+2026-04-19 20:14:47,339 [INFO] === Finished model: gemma4:e4b ===
+2026-04-19 20:14:47,339 [INFO] === Starting model: deepseek-r1:8b ===
+2026-04-19 20:14:47,340 [INFO] Running 2 excerpts (already completed: 0)
+2026-04-19 20:26:08,275 [INFO] [deepseek-r1:8b] 1/2 seb_pank_audit_to_earnings_01 (680.9s) status=malformed ✗
+2026-04-19 20:36:53,517 [INFO] [deepseek-r1:8b] 2/2 sap_audit_to_earnings_01 (645.2s) status=malformed ✗
+2026-04-19 20:36:53,518 [INFO] === Finished model: deepseek-r1:8b ===
+2026-04-19 20:36:53,518 [INFO] === All models complete ===

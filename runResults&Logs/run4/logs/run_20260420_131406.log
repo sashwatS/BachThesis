@@ -1,0 +1,44 @@
+2026-04-20 13:14:06,332 [INFO] === Rerun experiment starting ===
+2026-04-20 13:14:06,332 [INFO] Models: ['qwen3.5:9b', 'deepseek-r1:8b']
+2026-04-20 13:14:06,333 [INFO] num_predict: {'llama3.1:8b': 100, 'qwen3.5:9b': 20000, 'deepseek-r1:8b': 20000, 'gemma4:e4b': 2500}
+2026-04-20 13:14:06,340 [INFO] Loaded 39 excerpts and 13 ontology items
+2026-04-20 13:14:06,341 [INFO] === Starting model: qwen3.5:9b ===
+2026-04-20 13:14:06,344 [INFO] Rerun filter active for qwen3.5:9b: 28 excerpts (out of 28 IDs in rerun file)
+2026-04-20 13:14:06,344 [INFO] Already completed in this rerun: 0
+2026-04-20 13:29:06,447 [ERROR] [qwen3.5:9b] banco_sabadell_audit_to_earnings_01: request failed — HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=900)
+2026-04-20 13:33:45,608 [INFO] [qwen3.5:9b] 2/28 banco_santander_audit_to_earnings_01 (279.2s) status=ok ✓
+2026-04-20 13:47:15,979 [INFO] [qwen3.5:9b] 3/28 asn_bank_corpgov_to_earnings_01 (810.4s) status=malformed ✗
+2026-04-20 13:51:36,210 [INFO] [qwen3.5:9b] 4/28 barclays_ireland_corpgov_to_earnings_01 (260.2s) status=ok ✓
+2026-04-20 13:56:24,956 [INFO] [qwen3.5:9b] 5/28 carlsberg_corpgov_to_earnings_01 (288.7s) status=ok ✓
+2026-04-20 14:02:22,137 [INFO] [qwen3.5:9b] 6/28 adidas_envfines_to_mve_01 (357.2s) status=ok ✗
+2026-04-20 14:15:52,545 [INFO] [qwen3.5:9b] 7/28 stellantis_envfines_to_mve_01 (810.4s) status=malformed ✗
+2026-04-20 14:29:22,960 [INFO] [qwen3.5:9b] 8/28 banca_mediolanum_boardstrat_to_envreport_01 (810.4s) status=malformed ✗
+2026-04-20 14:42:53,409 [INFO] [qwen3.5:9b] 9/28 nestle_boardstrat_to_envreport_01 (810.4s) status=malformed ✗
+2026-04-20 14:56:23,778 [INFO] [qwen3.5:9b] 10/28 banco_sabadell_boardstrat_to_envreport_01 (810.4s) status=malformed ✗
+2026-04-20 15:09:54,209 [INFO] [qwen3.5:9b] 11/28 carlsberg_boardstrat_to_envreport_01 (810.4s) status=malformed ✗
+2026-04-20 15:23:24,619 [INFO] [qwen3.5:9b] 12/28 adidas_envreport_to_ghg_01 (810.4s) status=malformed ✗
+2026-04-20 15:36:55,087 [INFO] [qwen3.5:9b] 13/28 bank_of_cyprus_envreport_to_ghg_01 (810.5s) status=malformed ✗
+2026-04-20 15:50:25,509 [INFO] [qwen3.5:9b] 14/28 carlsberg_envreport_to_ghg_01 (810.4s) status=malformed ✗
+2026-04-20 15:55:34,513 [INFO] [qwen3.5:9b] 15/28 eon_envreport_to_ghg_01 (309.0s) status=ok ✓
+2026-04-20 16:01:20,136 [INFO] [qwen3.5:9b] 16/28 boa_europe_ghg_to_mps_01 (345.6s) status=ok ✗
+2026-04-20 16:14:50,693 [INFO] [qwen3.5:9b] 17/28 barclays_ireland_ghg_to_mps_01 (810.5s) status=malformed ✗
+2026-04-20 16:19:20,765 [INFO] [qwen3.5:9b] 18/28 seb_pank_ghg_to_pbv_01 (270.1s) status=ok ✗
+2026-04-20 16:32:51,392 [INFO] [qwen3.5:9b] 19/28 dhl_ghg_to_pbv_01 (810.6s) status=malformed ✗
+2026-04-20 16:38:22,366 [INFO] [qwen3.5:9b] 20/28 deutsche_bank_sustfin_to_ghg_01 (331.0s) status=ok ✓
+2026-04-20 16:51:52,834 [INFO] [qwen3.5:9b] 21/28 eon_sustfin_to_ghg_01 (810.5s) status=not_in_ontology ✗
+2026-04-20 17:05:23,344 [INFO] [qwen3.5:9b] 22/28 seb_pank_sustfin_to_mps_01 (810.5s) status=malformed ✗
+2026-04-20 17:18:53,872 [INFO] [qwen3.5:9b] 23/28 bayer_sustfin_to_mps_01 (810.5s) status=malformed ✗
+2026-04-20 17:32:24,078 [INFO] [qwen3.5:9b] 24/28 banco_sabadell_sustfin_to_mps_01 (810.2s) status=malformed ✗
+2026-04-20 17:38:10,287 [INFO] [qwen3.5:9b] 25/28 banco_sabadell_sustfin_to_mps_02 (346.2s) status=ok ✗
+2026-04-20 17:51:40,591 [INFO] [qwen3.5:9b] 26/28 nestle_empdev_to_netsales_01 (810.3s) status=malformed ✗
+2026-04-20 17:55:46,414 [INFO] [qwen3.5:9b] 27/28 siemens_empdev_to_netsales_01 (245.8s) status=ok ✓
+2026-04-20 18:09:16,812 [INFO] [qwen3.5:9b] 28/28 carlsberg_empdev_to_netsales_01 (810.4s) status=malformed ✗
+2026-04-20 18:09:16,813 [INFO] === Finished model: qwen3.5:9b ===
+2026-04-20 18:09:16,813 [INFO] === Starting model: deepseek-r1:8b ===
+2026-04-20 18:09:16,833 [INFO] Rerun filter active for deepseek-r1:8b: 3 excerpts (out of 3 IDs in rerun file)
+2026-04-20 18:09:16,834 [INFO] Already completed in this rerun: 0
+2026-04-20 18:12:36,232 [INFO] [deepseek-r1:8b] 1/3 adidas_envfines_to_mve_01 (199.4s) status=ok ✗
+2026-04-20 18:17:02,747 [INFO] [deepseek-r1:8b] 2/3 stellantis_envfines_to_mve_01 (266.5s) status=ok ✗
+2026-04-20 18:20:14,817 [INFO] [deepseek-r1:8b] 3/3 bayer_sustfin_to_mps_01 (192.1s) status=ok ✗
+2026-04-20 18:20:14,818 [INFO] === Finished model: deepseek-r1:8b ===
+2026-04-20 18:20:14,819 [INFO] === All models complete ===

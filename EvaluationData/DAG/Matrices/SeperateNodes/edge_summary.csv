@@ -1,0 +1,32 @@
+Cause,Effect,Ground truth,LLaMA 3.1 8B,Qwen 3.5 9B (thinking),Qwen 3.5 9B (instruct),Gemma 4 E4B,DeepSeek-R1 8B
+Board Strategy,GHG Emissions,0,3,0,0,0,1
+Board Strategy,Sustainable Finance,0,0,1,0,0,0
+Board Strategy,Market Value of Equity,0,0,0,1,0,1
+Board Strategy,Corporate Governance,0,1,0,0,0,0
+Environmental Reporting,GHG Emissions,5,2,0,0,1,0
+Environmental Reporting,Market Value of Equity,0,1,0,0,0,0
+GHG Emissions,Environmental Reporting,0,0,1,0,0,1
+GHG Emissions,Environmental Fines,0,3,0,1,0,1
+GHG Emissions,Market Value of Equity,5,0,0,0,2,1
+GHG Emissions,Corporate Governance,0,0,1,0,0,0
+PBV,Market Value of Equity,0,1,0,0,0,0
+Sustainable Finance,GHG Emissions,0,1,0,0,0,0
+Sustainable Finance,Market Value of Equity,0,0,0,0,1,0
+Sustainable Finance,Employee Development,0,1,0,0,0,0
+Sustainable Finance,Net Sales,0,0,0,0,1,2
+Market Price of Share,Net Sales,0,1,0,0,0,0
+Market Value of Equity,Board Strategy,0,1,0,0,0,0
+Market Value of Equity,PBV,0,2,0,0,0,0
+Audit,Corporate Governance,0,4,0,0,0,0
+Audit,Earnings Quality,0,1,0,0,0,0
+Corporate Governance,Board Strategy,0,0,0,0,1,0
+Corporate Governance,Environmental Reporting,5,0,1,0,1,0
+Corporate Governance,GHG Emissions,0,0,0,0,1,0
+Corporate Governance,Sustainable Finance,0,0,1,1,0,0
+Corporate Governance,Environmental Fines,0,1,0,0,0,0
+Corporate Governance,Market Value of Equity,0,0,1,0,0,1
+Corporate Governance,Audit,0,2,0,0,0,1
+Corporate Governance,Earnings Quality,0,0,0,0,0,2
+Earnings Quality,Market Price of Share,0,2,0,0,0,0
+Employee Development,Board Strategy,0,1,0,0,0,0
+Employee Development,Net Sales,0,1,0,0,0,0

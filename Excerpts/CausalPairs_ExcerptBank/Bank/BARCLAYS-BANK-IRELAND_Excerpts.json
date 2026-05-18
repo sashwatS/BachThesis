@@ -1,0 +1,12 @@
+{
+  "firm": "BARCLAYS-BANK-IRELAND",
+  "source_file": "Barclays Bank Ireland PLC Annual Report 2023.jsonl",
+  "excerpts": [
+    {
+      "id": 1,
+      "page": 86,
+      "word_count": 269,
+      "text": "Risk review Credit risk performance Climate Risk ECL assessment Barclays performed a credit risk assessment of physical and transition risk due to climate change. This was delivered through a combination of a scenario approach and targeted reviews on specific portfolios identified as more susceptible to climate risk. The analysis did not result in a separately identifiable impairment charge for year end 2023 reporting. Scenario Approach: The climate stress test macroeconomic scenario was used in lieu of the production Downside 2 scenario to determine impact on the weighted average ECL output. The output of this analysis was not significant to warrant an additional climate-related impairment charge. Specific Approach: The approach reviewed portfolios previously identified from both internal and external stress tests as more susceptible to climate risks. In particular, within the Wholesale portfolio, certain elevated risk sectors (predominantly Oil & Gas, Automotive and Power sectors) were subject to a review that considered probability of default impact at a counterparty level determined by individual susceptibility to transition climate risks. The output of this review did not provide variances in ECL deemed sufficiently certain to warrant raising an additional climate-related charge in 2023. Barclays acknowledges that impairment could increase over time as risks become more tangible and impact consumers and clients through physical risks or via impacts from the transition to a low carbon economy. Therefore, Barclays continues to review credit risk outputs to determine if any additional physical or transition climate risks are identified that are not sufficiently captured via model output. Further work will be carried out during 2024 to consider a pilot approach for an Environmental risk ECL assessment."
+    }
+  ]
+}
